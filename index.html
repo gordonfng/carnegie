@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Carnegie</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet"/>
+    <link href="tiles.css" rel="stylesheet"/>
+    <script src="tiles.js" type="text/javascript"></script>
+    <script src="app.js" type="text/javascript"></script>
+</head>
+<body onload="app.init()">
+<div id="sidecontainer" class="sidepanelcontainer">
+    <div class="panel expanded" id="settingspanel">
+        <div class="tabbody" id="scenariospage">
+            <label for="playernumber">Number of players</label>
+            <input id="playernumber" max="4" min="2" name="playerNumber" type="number">
+            <p>
+                <input id="setuptile" type="button" value="Setup"/>
+            </p>
+        </div>
+    </div>
+</div>
+<div id="tiles">
+</div>
+</body>
+</html>

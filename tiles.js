@@ -1,0 +1,18 @@
+const tileList = [
+    {type: 'human resources', position: 0, x: -0, y: -0, positionY: 0, name: 'Training and Partnerships'},
+    {type: 'human resources', position: 1, x: -128, y: -0, positionY: 0, name: 'Recruiting'},
+    {type: 'human resources', position: 2, x: -256, y: -0, positionY: 0, name: 'Safety and Quality'},
+    {type: 'human resources', position: 3, x: -384, y: -0, positionY: 0, name: 'New Lobby'},
+    {type: 'management', position: 4, x: -0, y: -115, positionY: 128, name: 'Purchasing'},
+    {type: 'management', position: 5, x: -128, y: -115, positionY: 128, name: 'Sales'},
+    {type: 'management', position: 6, x: -256, y: -115, positionY: 128, name: 'Logistics'},
+    {type: 'management', position: 7, x: -384, y: -115, positionY: 128, name: 'Property Management'},
+    {type: 'construction', position: 8, x: -0, y: -230, positionY: 256, name: 'Engineering'},
+    {type: 'construction', position: 9, x: -128, y: -230, positionY: 256, name: 'Construction Outsourcing'},
+    {type: 'construction', position: 10, x: -256, y: -230, positionY: 256, name: 'Supply Chain'},
+    {type: 'construction', position: 11, x: -384, y: -230, positionY: 256, name: 'Communications'},
+    {type: 'research and development', position: 12, x: -0, y: -345, positionY: 384, name: 'Advanced Research'},
+    {type: 'research and development', position: 13, x: -128, y: -345, positionY: 384, name: 'Advanced Design'},
+    {type: 'research and development', position: 14, x: -256, y: -345, positionY: 384, name: 'Charitable Giving'},
+    {type: 'research and development', position: 15, x: -384, y: -345, positionY: 384, name: 'Telegraph Operator'},
+];

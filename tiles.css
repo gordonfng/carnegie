@@ -1,0 +1,21 @@
+.tile-container
+{
+    position:                   relative;
+    text-align:                 center;
+
+    -webkit-box-flex:           1.0;
+
+    width:                      453px;
+    max-width:                  147.6vh;
+    margin:                     8px;
+}
+
+.tile
+{
+    position:                   absolute;
+    background-image: url(department_tiles.png);
+    width: 128px;
+    height: 112px;
+    background-size: 1024px 691px;
+    overflow:                   hidden;
+}
